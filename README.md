@@ -11,7 +11,7 @@
 <a href="#usage">Usage</a>&nbsp;&nbsp;&nbsp;
 <br/><br/>
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)<br/><br/>
+[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://golang.org)<br/><br/>
 [![License](https://img.shields.io/badge/License-MIT-pink.svg?style=for-the-badge)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-purple.svg?style=for-the-badge)](http://makeapullrequest.com)
 
 </div>
@@ -45,7 +45,7 @@ cssplit -dir ~/project -css ~/project/main.css -ext ".html,.jsx" -exclude "utils
 **Want to use it ?**
 
 Download the binary from the release page
-[CSSpli](https://github.com/royalbhati/CSSplit/releases/tag/v1.0)
+[CSSplit](https://github.com/royalbhati/CSSplit/releases/tag/v1.0)
 
 or clone the repo and compile it using
 
