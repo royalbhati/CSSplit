@@ -8,7 +8,7 @@
 <div align="center">
 <br/>
 
-<a href="#usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#usage">Usage</a>&nbsp;&nbsp;&nbsp;
 <br/><br/>
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)<br/><br/>
@@ -25,17 +25,18 @@ The script also allows following values from the commandline.
 usage: cssplit -dir -css -ext -exclude
 
 arguments:
-  -dir  Project Directory
-	-css  Path to CSS file
-	-ext  File extensions to parse example=.html,.jsx"
-	-exclude  Files to exclude
+
+-dir  Project Directory
+-css  Path to CSS file
+-ext  File extensions to parse example=.html,.jsx"
+-exclude  Files to exclude
 
 ```
 
 example
 
 ```bash
-	cssplit -dir ~/Desktop/myproject -css ~/Desktop/myproject/main.css -ext ".html,.js,.jsx" -exclude "utils,lib"
+cssplit -dir ~/project -css ~/project/main.css -ext ".html,.jsx" -exclude "utils,lib"
 
 ```
 
