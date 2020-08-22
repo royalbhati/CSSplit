@@ -13,24 +13,23 @@ import (
 )
 
 func usage() {
-	u :=
+	meta :=
 		`
 NAME: 
 	CSSplit - Split your one big CSS files into modules
 
 USAGE: 
 	cssplit -d ~/Desktop/myproject -css ~/Desktop/myproject/main.css -ext ".html,.js,.jsx"
-
 `
 
-	fmt.Println(u)
+	fmt.Println(meta)
 }
 
 func main() {
 	usage()
 	dir := flag.String("dir", ".", "Project Directory")
 	csspath := flag.String("css", "", "Path to CSS file")
-	ext := flag.String("ext", "[.html,.js,.jsx]", "file extensions to parse")
+	ext := flag.String("ext", "[.html,.js,.jsx]", "File extensions to parse")
 	flag.Parse()
 
 	if _, err := os.Stat(*dir); os.IsNotExist(err) {
