@@ -45,6 +45,8 @@ cssplit -dir ~/project -css ~/project/main.css -ext ".html,.jsx" -exclude "utils
 **Want to use it ?**
 
 Download the binary from the release page
+[CSSpli](https://github.com/royalbhati/CSSplit/releases/tag/v1.0)
+
 or clone the repo and compile it using
 
 ```console
