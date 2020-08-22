@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/royalbhati/cssremove/scanner"
+	"github.com/royalbhati/cssplit/scanner"
 )
 
 //CSS extracts the css for that particular file and save that in that location where the original file is located
